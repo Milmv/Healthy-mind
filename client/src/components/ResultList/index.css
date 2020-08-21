@@ -1,0 +1,28 @@
+.result__item-content ul {
+  display: flex;
+  list-style: none;
+  margin-top: 35px;
+}
+.result__item-content li {
+  font-size: 18px;
+  line-height: 22px;
+  word-wrap: break-all;
+}
+.result__item-content li:first-child {
+  width: 150px;
+}
+.result__item-content li:last-child {
+  max-width: 55%;
+}
+
+@media (max-width: 510px) {
+  .result__item-content li {
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  .result__item-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}

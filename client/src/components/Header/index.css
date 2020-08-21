@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 50px;
+}
+
+.header__logo {
+  cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+  .header__logo {
+    width: 160px;
+  }
+}
+
+@media (max-width: 920px) {
+  .header {
+    margin: 40px 40px 20px;
+  }
+
+  .header__logo img {
+    width: 140px;
+  }
+}
+
+@media (max-width: 510px) {
+  .header {
+    margin: 20px 15px 0;
+  }
+
+  .header__logo img {
+    width: 100px;
+  }
+}
