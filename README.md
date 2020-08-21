@@ -24,6 +24,8 @@
 Чтобы запустить проект:
 ### `cd client`
 ### `npm i`
-### `npm start`
+### `npm start`  
+
+Express/React+ReduxThunk
 
 
